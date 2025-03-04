@@ -1,0 +1,327 @@
+/* Estilos generales */
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;color: rgba(253, 253, 253, 0.637);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Encabezado */
+header {
+    background-color: #f0f0f057;
+    padding: 20px 0;
+}
+
+
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    max-height: 60px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    margin-left: 20px;
+}
+
+/* Sección de héroe */
+.hero {
+    background-image: url('imagen\ 28.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Secciones de servicios y programas */
+.services, .programs{ ;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.services .container, .programs .container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service, .program {
+    width: 30%;
+    margin-bottom: 30px;
+}
+
+.service img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Estilos generales (mantén los que ya tenías) */
+
+
+body {
+    background-image: url('imangen00.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    min-height: 100vh; /* Altura mínima para cubrir toda la ventana */
+    height: auto; /* Permite que el body se expanda con el contenido */
+}
+
+
+
+
+.video-container {
+    width: 80%; /* Ajusta el ancho del contenedor del video */
+    max-width: 900px; /* Ancho máximo del contenedor */
+    margin: 15px auto; /* Centra el contenedor horizontalmente */
+}
+
+video {
+    width: 100%; /* El video ocupa todo el ancho del contenedor */
+    height: auto; /* Mantiene la proporción de aspecto del video */
+    display: block; /* Evita espacios adicionales debajo del video */
+}
+
+
+.carrusel {
+    width: 100%;
+    height: 100vh; /* El carrusel ocupa el 100% de la altura de la ventana */
+    overflow: hidden;
+    position: relative;
+
+      
+}
+
+.imagenes {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    height: 200%; /* Las imágenes ocupan el 100% de la altura del carrusel */
+}
+
+.imagenes img {
+    width: 100%;
+    height: 50%; /* Las imágenes ocupan el 100% de la altura del carrusel */
+    object-fit: cover; /* Ajusta la imagen para cubrir todo el espacio sin distorsionar */
+    flex-shrink: 0;
+}
+
+.anterior, .siguiente {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.anterior {
+    left: 10px;
+}
+
+.siguiente {
+    right: 10px;
+}
+
+
+
+
+
+
+.section-activities {
+    background-color: rgba(255, 255, 255, 0.069);
+    padding: 50px 20px;
+    text-align: center;
+ 
+}
+
+.activity {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+.activity img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.activity h3 {
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+
+.activity p {
+    font-size: 1em;
+}
+
+/* Sección Lorem Ipsum */
+.section-lorem {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+
+
+.relieve:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* Sombra para el efecto de relieve */
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  
+ 
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  
+  
+ 
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+
+.relieve1 {
+    transition: box-shadow 0.3s ease; /* Transición suave para el efecto */
+}
+
+.relieve1:hover {
+    box-shadow: 5px 5px 10px rgb(39, 39, 39); /* Sombra para el efecto de relieve */
+}
+
+   .encabezado {
+    max-width: 100%;
+    height: auto; /* Ocupa el 200% de la altura de la ventana */
+    display: flex  }
+
+
+    
+    .carrusel{ max-width: 100%;
+        height: auto}
+       
+    
+    /* Reset CSS */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Imágenes responsivas */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Tipografía responsiva */
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+/* Diseño flexible */
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.flex-item {
+    flex: 1;
+    min-width: 300px;
+    margin-bottom: 20px;
+}
+
+/* Media queries */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    .flex-item {
+        flex: 1 0 100%; /* Ocupan todo el ancho en pantallas pequeñas */
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+}
+
+
+
+
+
+
+
